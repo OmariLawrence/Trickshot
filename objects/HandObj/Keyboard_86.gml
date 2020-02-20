@@ -1,5 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-origy = y
-minang = -90
-maxang = 0
+if(image_angle > minang){
+	image_angle--;
+}

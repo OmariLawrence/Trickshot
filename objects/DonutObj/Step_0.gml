@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-origy = y
-minang = -90
-maxang = 0
+if(!place_meeting(x, y + 1, GroundObj)){
+	gravity = 0.01;
+}else{
+	gravity = 0;
+}
